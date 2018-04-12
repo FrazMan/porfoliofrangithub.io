@@ -1,13 +1,13 @@
 
 .container {
   
-  position: relative;
+  
   width: 100%;
   max-width:100%;
   margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;    
-  background-color: #E5EAFA;
+  padding: 0 1px;
+  background-color: white;
+  display: inline;
   }
  hr {
  	color: gray;
@@ -19,5 +19,23 @@
  	text-decoration: none;
 }
 li {
-	display: inline;
+	display:inline-block;
+  text-decoration:none;
+}
+img {
+	width: 118px;
+	height: 118px;
+	align-self: center;
+	border-radius: 50%
+}
+
+.encabezado{
+	
+	background-color: #E5EAFA;
+	border-left: 2px;
+	border-color: black; 
+	padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }

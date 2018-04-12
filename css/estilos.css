@@ -1,0 +1,23 @@
+
+.container {
+  
+  position: relative;
+  width: 100%;
+  max-width:100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;    
+  background-color: #E5EAFA;
+  }
+ hr {
+ 	color: gray;
+ 	width: 100%
+ }
+ ul {
+	float: right;
+ 	display: block;
+ 	text-decoration: none;
+}
+li {
+	display: inline;
+}
